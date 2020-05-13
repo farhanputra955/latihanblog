@@ -13,3 +13,5 @@
 
 Route::get('/', 'FrontendController@blog');
 Route::get('/film', 'FrontendController@film');
+Route::get('/fashionpria', 'FrontendController@fashionpria');
+Route::get('/fashionwanita', 'FrontendController@fashionwanita');

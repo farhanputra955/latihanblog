@@ -123,9 +123,17 @@
                                     
                                     <li><a href="#">Catagory</a>
                                         <ul class="dropdown">
-                                            <li><a href="/fashionpria">Fashion Pria</a></li>
-                                            <li><a href="#">Fashion Wanita</a>
-                                           
+                                            <li><a href="/fashionpria">Pakaian</a></li>
+                                            <li><a href="#">Berita</a>
+                                            <li><a href="#">Film</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="/tes">blog film</a></li>
+                                                    <li><a href="#">Download film</a></l>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </li>
+                                          
                                         </ul>
                                     </li>
                                     <li><a href="/aboutus">About Us</a></li>
@@ -152,56 +160,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Hero Area Start ##### -->
-    <div class="hero-area">
-        <!-- Hero Slides Area -->
-        <div class="hero-slides owl-carousel">
-            <!-- Single Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(/assets/blog/img/bg-img/b2.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12">
-                            <div class="slide-content text-center">
-                                <div class="post-tag">
-                                    <a href="#" data-animation="fadeInUp">lifestyle</a>
-                                </div>
-                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="single-post.html">Take a look at last night’s party!</a></h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(/assets/blog/img/bg-img/b1.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12">
-                            <div class="slide-content text-center">
-                                <div class="post-tag">
-                                    <a href="#" data-animation="fadeInUp">lifestyle</a>
-                                </div>
-                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="single-post.html">Take a look at last night’s party!</a></h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(/assets/blog/img/bg-img/b3.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12">
-                            <div class="slide-content text-center">
-                                <div class="post-tag">
-                                    <a href="#" data-animation="fadeInUp">lifestyle</a>
-                                </div>
-                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="single-post.html">Take a look at last night’s party!</a></h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### Blog Wrapper Start ##### -->
@@ -214,10 +173,12 @@
                         <!-- Blog Content -->
                         <div class="single-blog-content">
                             <div class="line"></div>
-                            <a href="" class="post-tag">Lifestyle</a>
-                            <h4><a href="" class="post-headline">Selamat Datang Di Blog Fashion</a></h4>
+                            <a href="#" class="post-tag">Lifestyle</a>
+                            <h4><a href="#" class="post-headline">Pentingnya Menjaga Penampilan</a></h4>
                             <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt. Morbi sodales, dolor id ultricies dictum</p>
-                            <a href="#" class="btn original-btn">Read More</a>
+                            <div class="load-more-btn mt-100 wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1000ms">
+                                <a href="/" class="btn original-btn">Kembali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -232,9 +193,9 @@
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
-                        <img src="{{ asset ('assets/blog/img/blog-img/hijab.jpg')}}" alt="">
+                        <img src="{{ asset ('assets/blog/img/blog-img/jaket1.jpg')}}" alt="">
                         <!-- Catagory Title -->
-                        
+                       
                     </div>
                 </div>
             </div>
@@ -245,56 +206,10 @@
                 <div class="col-12 col-lg-9">
 
                     <!-- Single Blog Area  -->
-                    <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1000ms">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-6">
-                                <div class="single-blog-thumbnail">
-                                    <img src="{{ asset ('assets/blog/img/blog-img/k1.jpg')}}" alt="">
-                                    
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <!-- Blog Content -->
-                                <div class="single-blog-content">
-                                    <div class="line"></div>
-                                    <a href="#" class="post-tag">Lifestyle</a>
-                                    <h4><a href="/fashionpria" class="post-headline">Fashion Pria yang Keren tapi Simple</a></h4>
-                                    <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.</p>
-                                    <div class="post-meta">
-                                        <p>By <a href="#">james smith</a></p>
-                                        <p>3 comments</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
 
                     <!-- Single Blog Area  -->
-                    <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1000ms">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-6">
-                                <div class="single-blog-thumbnail">
-                                    <img src="{{ asset ('assets/blog/img/blog-img/4.jpg')}}" alt="">
-                                    <div class="post-date">
-                                        <a href="">12 <span>desember</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <!-- Blog Content -->
-                                <div class="single-blog-content">
-                                    <div class="line"></div>
-                                    <a href="#" class="post-tag">Lifestyle</a>
-                                    <h4><a href="fashionwanita" class="post-headline">Fashion Wanita Khusus Berhijab</a></h4>
-                                    <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.</p>
-                                    <div class="post-meta">
-                                        <p>By <a href="#">james smith</a></p>
-                                        <p>3 comments</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
 
                     <!-- Single Blog Area  -->
                     <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1000ms">
@@ -324,34 +239,13 @@
                     </div>
 
                     <!-- Single Blog Area  -->
-                    <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1000ms">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-6">
-                                <div class="single-blog-thumbnail">
-                                    <img src="{{ asset ('assets/blog/img/blog-img/avengers.jpg')}}" alt="">
-                                    <div class="post-date">
-                                        <a href="#">12 <span>march</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <!-- Blog Content -->
-                                <div class="single-blog-content">
-                                    <div class="line"></div>
-                                    <a href="#" class="post-tag">Movie</a>
-                                    <h4><a href="/film" class="post-headline">Deretan Film Terbaik Tahun Ini</a></h4>
-                                    <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.</p>
-                                    <div class="post-meta">
-                                        <p>By <a href="#">james smith</a></p>
-                                        <p>3 comments</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
 
                     <!-- Single Blog Area  -->
-                
+                   
+
+                    <!-- Load More -->
+                    
                 </div>
 
                 <!-- ##### Sidebar Area ##### -->
@@ -393,7 +287,7 @@
                                 <div class="single-blog-post d-flex align-items-center widget-post">
                                     <!-- Post Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <img src="{{ asset ('assets/blog/img/blog-img/lp1.jpg')}}" alt="">
+                                        <img src="{{ asset ('assets/blog/img/blog-img/lp1.j')}}pg" alt="">
                                     </div>
                                     <!-- Post Content -->
                                     <div class="post-content">
@@ -409,7 +303,7 @@
                                 <div class="single-blog-post d-flex align-items-center widget-post">
                                     <!-- Post Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <img src="{{ asset ('assets/blog/img/blog-img/lp2.jpg')}}" alt="">
+                                        <img src="{{ asset ('assets/blog/img/blog-img/lp2.j')}}pg" alt="">
                                     </div>
                                     <!-- Post Content -->
                                     <div class="post-content">
@@ -425,7 +319,7 @@
                                 <div class="single-blog-post d-flex align-items-center widget-post">
                                     <!-- Post Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <img src="{{ asset ('assets/blog/img/blog-img/lp3.jpg')}}" alt="">
+                                        <img src="{{ asset ('assets/blog/img/blog-img/lp3.j')}}pg" alt="">
                                     </div>
                                     <!-- Post Content -->
                                     <div class="post-content">
@@ -441,7 +335,7 @@
                                 <div class="single-blog-post d-flex align-items-center widget-post">
                                     <!-- Post Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <img src="{{ asset ('assets/blog/img/blog-img/lp4.jpg')}}" alt="">
+                                        <img src="{{ asset ('assets/blog/img/blog-img/lp4.j')}}pg" alt="">
                                     </div>
                                     <!-- Post Content -->
                                     <div class="post-content">
@@ -456,7 +350,21 @@
                         </div>
 
                         <!-- Widget Area -->
-                        
+                        <div class="sidebar-widget-area">
+                            <h5 class="title">Tags</h5>
+                            <div class="widget-content">
+                                <ul class="tags">
+                                    <li><a href="#">design</a></li>
+                                    <li><a href="#">fashion</a></li>
+                                    <li><a href="#">travel</a></li>
+                                    <li><a href="#">music</a></li>
+                                    <li><a href="#">party</a></li>
+                                    <li><a href="#">video</a></li>
+                                    <li><a href="#">photography</a></li>
+                                    <li><a href="#">adventure</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -584,7 +492,10 @@
             </div>
         </div>
 
-  
+   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
     </footer>
     <!-- ##### Footer Area End ##### -->
 
